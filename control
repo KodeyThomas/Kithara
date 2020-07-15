@@ -1,0 +1,9 @@
+Package: tech.kodeycodesstuff.kithara
+Name: kithara
+Version: 1.0-alpha1
+Architecture: iphoneos-arm
+Description: Check How Much Music You Have Listened Too Today
+Maintainer: Kodey Thomas
+Author: Kodey Thomas
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000)

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Kithara</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<true/>
+			<key>defaults</key>
+			<string>tech.kodeycodesstuff.kitharaprefs</string>
+			<key>key</key>
+			<string>isEnabled</string>
+			<key>label</key>
+			<string>Enabled</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSEditTextCell</string>
+			<key>default</key>
+			<string></string>
+			<key>placeholder</key>
+			<string>LastFM Username</string>
+			<key>label</key>
+			<string>LastFM Name:</string>
+			<key>defaults</key>
+			<string>tech.kodeycodesstuff.kitharaprefs</string>
+			<key>key</key>
+			<string>lastFM_Name</string>
+			<key>PostNotification</key>
+			<string>tech.kodeycodesstuff.kitharaprefs/ReloadPrefs</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Credits</string>
+		</dict>
+		<dict>
+			<key>cellClass</key>
+			<string>HBTwitterCell</string>
+			<key>label</key>
+			<string>@ThomasKodey</string>
+			<key>user</key>
+			<string>ThomasKodey</string>
+			<key>action</key>
+			<string>openTwitter</string>
+		</dict>
+		<dict>
+			<key>cellClass</key>
+			<string>HBLinkTableCell</string>
+			<key>label</key>
+			<string>Github</string>
+			<key>subtitle</key>
+			<string>Open Source On Github</string>
+			<key>icon</key>
+			<string>github@2x.png</string>
+			<key>url</key>
+			<string>https://github.com/KodeyThomas/SpotifyBlue</string>
+		</dict>
+		<dict>
+    	<key>cell</key>
+    	<string>PSGroupCell</string>
+    	<key>footerText</key>
+    	<string>Made By Kodey Thomas - Check Out My Other Tweaks :)</string>
+		</dict>
+		<dict>
+    	<key>cell</key>
+    	<string>PSGroupCell</string>
+    	<key>footerText</key>
+    	<string>Kithara v1.0-alpha1</string>
+		</dict>
+	</array>
+	<key>title</key>
+	<string>KitharaPrefs</string>
+</dict>
+</plist>
