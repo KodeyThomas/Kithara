@@ -76,7 +76,7 @@
     	<key>cell</key>
     	<string>PSGroupCell</string>
     	<key>footerText</key>
-    	<string>Kithara v1.0-alpha1</string>
+    	<string>Kithara v1.0-alpha</string>
 		</dict>
 	</array>
 	<key>title</key>
